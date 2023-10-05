@@ -211,7 +211,7 @@ int main()
             model = glm::rotate(model, glm::radians(angle), glm::vec3(1.0f, 0.3f, 0.5f));
             ourShader.setMat4("model", model);
 
-            glDrawArrays(GL_TRIANGLES, 0, 36);
+            glDrawArrays(GL_TRIANGLES, 0, 12); // 36
         }
 
         // glfw: swap buffers and poll IO events (keys pressed/released, mouse moved etc.)
