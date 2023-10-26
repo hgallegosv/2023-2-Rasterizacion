@@ -9,7 +9,7 @@
 
 Model_PLY::Model_PLY() {
     centro = vec3(0.0);
-    escala = 20;
+    escala = 2;
 }
 
 int Model_PLY::Load(char* filename) {
@@ -124,7 +124,7 @@ int Model_PLY::enviar_GPU() {
 void Model_PLY::display(Shader &sh) {
     model = mat4(1.0);
     model = scale(model, vec3(escala));
-    model = translate(model, centro);
+    model = translate(model, centro + vec3(traslacion));
     sh.setMat4("model", model);
     if (true) {
         glBindVertexArray(vao);

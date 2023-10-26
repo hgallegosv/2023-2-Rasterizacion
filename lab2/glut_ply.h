@@ -14,7 +14,6 @@ using namespace glm;
 class Model_PLY: public Objeto {
 public:
 	Model_PLY();
-	//vec3 centro;
     int		Load(char *filename);
     void    imprimir();
     int     enviar_GPU();

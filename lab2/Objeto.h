@@ -21,14 +21,19 @@ public:
     vector<vec2> textureCoords;
     vector<GLuint> indices;
     GLuint indices_size;
-    GLuint vao;
+    GLuint vao, vbo_position;
     mat4 model;
     vec3 centro;
+    float traslacion;
+    float escala = 20;
+    vec3 rotacion;
+
     bool visible=true;
     bool mueve = true;
-    float escala = 20;
+
     GLint POSITION_ATTRIBUTE=0, NORMAL_ATTRIBUTE=1, TEXCOORD0_ATTRIBUTE=8;
     Objeto() {
+        traslacion = 0;
     }
     vec3 cal_normal(vec3 v1, vec3 v2, vec3 v3){
         return glm::cross(v2-v1, v3-v2);
@@ -76,5 +81,11 @@ public:
     Piramide() { escala = 1; rotacion = 0; }
     GLuint setup();
     void display(Shader &sh);
+};
+class Cubo: public Objeto{
+public:
+    Cubo() { escala = 1; }
+    GLuint setup() override;
+    void display(Shader &sh) override;
 };
 #endif //LEARNOPENGL_OBJETO_H
