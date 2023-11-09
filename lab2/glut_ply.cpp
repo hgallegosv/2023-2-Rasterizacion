@@ -9,7 +9,7 @@
 
 Model_PLY::Model_PLY() {
     centro = vec3(0.0);
-    escala = 2;
+    escala = 1;
 }
 
 int Model_PLY::Load(char* filename) {
