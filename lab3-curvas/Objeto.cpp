@@ -45,11 +45,14 @@ GLuint Superficie::setup() {
     // y = (2 + cos(t))*sen(phi)
     // z = t
     float x, y, z;
+    vec3 dt, ds;
     for(float t=0; t < 2*3.1415; t += 0.1) {
         for(float phi=0; phi < 2*3.1415; phi += 0.1){
             x = (2 + cos(t))*cos(phi);
             y = (2 + cos(t))*sin(phi);
             z = t;
+            dt = vec3(-sin(t)*cos(phi), -sin(t)*sin(phi),1);
+            ds = vec3();
             positions.emplace_back(vec3(x,y,z));
             normals.emplace_back(vec3(1));
         }

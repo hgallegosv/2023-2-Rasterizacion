@@ -1,3 +1,4 @@
 D:/CG2023/2023-2-Rasterizacion/lab3-curvas/cmake-build-debug/CMakeFiles/lab3curvas.dir
+D:/CG2023/2023-2-Rasterizacion/lab3-curvas/cmake-build-debug/CMakeFiles/lab3sombras.dir
 D:/CG2023/2023-2-Rasterizacion/lab3-curvas/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/CG2023/2023-2-Rasterizacion/lab3-curvas/cmake-build-debug/CMakeFiles/rebuild_cache.dir
