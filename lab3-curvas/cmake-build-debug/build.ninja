@@ -130,6 +130,51 @@ build lab3sombras.exe: CXX_EXECUTABLE_LINKER__lab3sombras_Debug CMakeFiles/lab3s
   TARGET_IMPLIB = liblab3sombras.dll.a
   TARGET_PDB = lab3sombras.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target lab3sombras2
+
+
+#############################################
+# Order-only phony target for lab3sombras2
+
+build cmake_object_order_depends_target_lab3sombras2: phony || CMakeFiles/lab3sombras2.dir
+
+build CMakeFiles/lab3sombras2.dir/shadow_mapping.cpp.obj: CXX_COMPILER__lab3sombras2_Debug D$:/CG2023/2023-2-Rasterizacion/lab3-curvas/shadow_mapping.cpp || cmake_object_order_depends_target_lab3sombras2
+  DEP_FILE = CMakeFiles\lab3sombras2.dir\shadow_mapping.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++17
+  OBJECT_DIR = CMakeFiles\lab3sombras2.dir
+  OBJECT_FILE_DIR = CMakeFiles\lab3sombras2.dir
+
+build CMakeFiles/lab3sombras2.dir/glad.c.obj: C_COMPILER__lab3sombras2_Debug D$:/CG2023/2023-2-Rasterizacion/lab3-curvas/glad.c || cmake_object_order_depends_target_lab3sombras2
+  DEP_FILE = CMakeFiles\lab3sombras2.dir\glad.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\lab3sombras2.dir
+  OBJECT_FILE_DIR = CMakeFiles\lab3sombras2.dir
+
+build CMakeFiles/lab3sombras2.dir/stb_image.cpp.obj: CXX_COMPILER__lab3sombras2_Debug D$:/CG2023/2023-2-Rasterizacion/lab3-curvas/stb_image.cpp || cmake_object_order_depends_target_lab3sombras2
+  DEP_FILE = CMakeFiles\lab3sombras2.dir\stb_image.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++17
+  OBJECT_DIR = CMakeFiles\lab3sombras2.dir
+  OBJECT_FILE_DIR = CMakeFiles\lab3sombras2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lab3sombras2
+
+
+#############################################
+# Link the executable lab3sombras2.exe
+
+build lab3sombras2.exe: CXX_EXECUTABLE_LINKER__lab3sombras2_Debug CMakeFiles/lab3sombras2.dir/shadow_mapping.cpp.obj CMakeFiles/lab3sombras2.dir/glad.c.obj CMakeFiles/lab3sombras2.dir/stb_image.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lOpenGL32  -lglfw3  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\lab3sombras2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = lab3sombras2.exe
+  TARGET_IMPLIB = liblab3sombras2.dll.a
+  TARGET_PDB = lab3sombras2.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -160,6 +205,8 @@ build lab3curvas: phony lab3curvas.exe
 
 build lab3sombras: phony lab3sombras.exe
 
+build lab3sombras2: phony lab3sombras2.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -168,7 +215,7 @@ build lab3sombras: phony lab3sombras.exe
 #############################################
 # Folder: D:/CG2023/2023-2-Rasterizacion/lab3-curvas/cmake-build-debug
 
-build all: phony lab3curvas.exe lab3sombras.exe
+build all: phony lab3curvas.exe lab3sombras.exe lab3sombras2.exe
 
 # =============================================================================
 # Built-in targets

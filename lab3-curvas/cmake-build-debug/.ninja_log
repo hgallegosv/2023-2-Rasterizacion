@@ -1,11 +1,14 @@
 # ninja log v5
-0	167	7217843598403004	build.ninja	88b7cf7e743f9333
 2	1170	7217842965269638	CMakeFiles/lab3curvas.dir/Objeto.cpp.obj	50b721520eba5f77
+0	140	7217855593335754	build.ninja	88b7cf7e743f9333
 10	1094	7211795100961068	CMakeFiles/lab3curvas.dir/glad.c.obj	956a7daa9caabac
-15	1318	7217843285868167	CMakeFiles/lab3sombras.dir/shadow_mapping_depth.cpp.obj	954b1cd1dd692ee4
+727	952	7217843608064384	lab3sombras.exe	4fe2d8904ac28cb9
+2	727	7217843605832833	CMakeFiles/lab3sombras.dir/stb_image.cpp.obj	43cdeedb8b78d496
 2	1017	7212694973809586	CMakeFiles/lab3curvas.dir/main.cpp.obj	ed9c00a12c651036
+15	1318	7217843285868167	CMakeFiles/lab3sombras.dir/shadow_mapping_depth.cpp.obj	954b1cd1dd692ee4
 1170	1482	7217842968380011	lab3curvas.exe	b1e09eda4c295e7f
 0	1281	7217843285518168	CMakeFiles/lab3sombras.dir/glad.c.obj	80f54fbc0def92b5
-0	128	7217843598403004	build.ninja	88b7cf7e743f9333
-2	727	7217843605832833	CMakeFiles/lab3sombras.dir/stb_image.cpp.obj	43cdeedb8b78d496
-727	952	7217843608064384	lab3sombras.exe	4fe2d8904ac28cb9
+12	907	7217855679913483	CMakeFiles/lab3sombras2.dir/stb_image.cpp.obj	449af2f67708b668
+1	1107	7217855681913621	CMakeFiles/lab3sombras2.dir/glad.c.obj	78bee29ccb91a383
+7	1226	7217855683103950	CMakeFiles/lab3sombras2.dir/shadow_mapping.cpp.obj	9fc6c35021e06d89
+1226	1467	7217855685503939	lab3sombras2.exe	a2f3c3842186cc2a

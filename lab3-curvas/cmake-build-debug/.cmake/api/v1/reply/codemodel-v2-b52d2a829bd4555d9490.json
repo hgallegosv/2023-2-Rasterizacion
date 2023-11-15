@@ -16,7 +16,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -32,7 +33,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -41,15 +43,22 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "lab3curvas::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-lab3curvas-Debug-e39e4d63ea10520459fa.json",
+					"jsonFile" : "target-lab3curvas-Debug-ef4296a89c21258144ae.json",
 					"name" : "lab3curvas",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "lab3sombras::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-lab3sombras-Debug-c09255ccf420c674a089.json",
+					"jsonFile" : "target-lab3sombras-Debug-0e3245e950e37b25c675.json",
 					"name" : "lab3sombras",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lab3sombras2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lab3sombras2-Debug-3cdae55cd6ebdaee6b16.json",
+					"name" : "lab3sombras2",
 					"projectIndex" : 0
 				}
 			]
