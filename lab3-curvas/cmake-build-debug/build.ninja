@@ -175,6 +175,51 @@ build lab3sombras2.exe: CXX_EXECUTABLE_LINKER__lab3sombras2_Debug CMakeFiles/lab
   TARGET_IMPLIB = liblab3sombras2.dll.a
   TARGET_PDB = lab3sombras2.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target lab3normalmapping
+
+
+#############################################
+# Order-only phony target for lab3normalmapping
+
+build cmake_object_order_depends_target_lab3normalmapping: phony || CMakeFiles/lab3normalmapping.dir
+
+build CMakeFiles/lab3normalmapping.dir/normal_mapping.cpp.obj: CXX_COMPILER__lab3normalmapping_Debug D$:/CG2023/2023-2-Rasterizacion/lab3-curvas/normal_mapping.cpp || cmake_object_order_depends_target_lab3normalmapping
+  DEP_FILE = CMakeFiles\lab3normalmapping.dir\normal_mapping.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++17
+  OBJECT_DIR = CMakeFiles\lab3normalmapping.dir
+  OBJECT_FILE_DIR = CMakeFiles\lab3normalmapping.dir
+
+build CMakeFiles/lab3normalmapping.dir/glad.c.obj: C_COMPILER__lab3normalmapping_Debug D$:/CG2023/2023-2-Rasterizacion/lab3-curvas/glad.c || cmake_object_order_depends_target_lab3normalmapping
+  DEP_FILE = CMakeFiles\lab3normalmapping.dir\glad.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\lab3normalmapping.dir
+  OBJECT_FILE_DIR = CMakeFiles\lab3normalmapping.dir
+
+build CMakeFiles/lab3normalmapping.dir/stb_image.cpp.obj: CXX_COMPILER__lab3normalmapping_Debug D$:/CG2023/2023-2-Rasterizacion/lab3-curvas/stb_image.cpp || cmake_object_order_depends_target_lab3normalmapping
+  DEP_FILE = CMakeFiles\lab3normalmapping.dir\stb_image.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=gnu++17
+  OBJECT_DIR = CMakeFiles\lab3normalmapping.dir
+  OBJECT_FILE_DIR = CMakeFiles\lab3normalmapping.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lab3normalmapping
+
+
+#############################################
+# Link the executable lab3normalmapping.exe
+
+build lab3normalmapping.exe: CXX_EXECUTABLE_LINKER__lab3normalmapping_Debug CMakeFiles/lab3normalmapping.dir/normal_mapping.cpp.obj CMakeFiles/lab3normalmapping.dir/glad.c.obj CMakeFiles/lab3normalmapping.dir/stb_image.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lOpenGL32  -lglfw3  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\lab3normalmapping.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = lab3normalmapping.exe
+  TARGET_IMPLIB = liblab3normalmapping.dll.a
+  TARGET_PDB = lab3normalmapping.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -203,6 +248,8 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build lab3curvas: phony lab3curvas.exe
 
+build lab3normalmapping: phony lab3normalmapping.exe
+
 build lab3sombras: phony lab3sombras.exe
 
 build lab3sombras2: phony lab3sombras2.exe
@@ -215,7 +262,7 @@ build lab3sombras2: phony lab3sombras2.exe
 #############################################
 # Folder: D:/CG2023/2023-2-Rasterizacion/lab3-curvas/cmake-build-debug
 
-build all: phony lab3curvas.exe lab3sombras.exe lab3sombras2.exe
+build all: phony lab3curvas.exe lab3sombras.exe lab3sombras2.exe lab3normalmapping.exe
 
 # =============================================================================
 # Built-in targets

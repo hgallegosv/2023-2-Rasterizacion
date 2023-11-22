@@ -17,7 +17,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -34,7 +35,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -45,6 +47,13 @@
 					"id" : "lab3curvas::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-lab3curvas-Debug-ef4296a89c21258144ae.json",
 					"name" : "lab3curvas",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lab3normalmapping::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lab3normalmapping-Debug-e570feaaa86922d9cf61.json",
+					"name" : "lab3normalmapping",
 					"projectIndex" : 0
 				},
 				{
